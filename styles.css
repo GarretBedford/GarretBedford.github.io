@@ -12,8 +12,10 @@ h4 {background-color:lightgray; color:#3d3d3d}
 
 h5 {background-color:lightgray; color:#3d3d3d}
 
-a:link{background-color:lightgray; color:#6961ff}
+a:link{background-color:lightgray; color:#ff784f}
 
-a:visited{background-color:lightgray; color:#524e99}
+a:visited{background-color:lightgray; color:#a63e29}
 
-a:hover{font-style:italic; color:#d14141; background-color:#e8e8e8}
+a:hover{font-style:italic; color:#4e9fe6; background-color:#e8e8e8}
+
+p:hover{font-style:italic;}
