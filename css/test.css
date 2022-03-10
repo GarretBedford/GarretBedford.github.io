@@ -2,6 +2,9 @@
 
 body {
   background-color:white;
+  margin:0px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 img {
   width:100%;
@@ -22,29 +25,45 @@ img {
   grid-column: 1/4;
   font-family: "Courier New", Helvetica, sans-serif;
   padding:0px;
-  margin:10px;
-  font-size: 50px;
+  margin:0px;
+  font-size: 30px;
   list-style-type: none;
   align-self: center;
+}
+
+.menu .activemenu {
+  background-color: #505050;
+}
+
+.menu .activemenu:hover {
+  color:white;
+  background-color: darkblue;
 }
 
 ul {
   list-style-type: none;
   margin:0px;
   padding:0px;
-  background-color: inherit;
+  overflow:hidden;
+  background-color: grey;
   border-color: black;
+  border-style: inset;
+  border-width:5px;
   position:relative;
+  width:100%;
+}
+
+li {
+  float:left;
 }
 
 li a {
   display:block;
   width:auto;
   background-color: grey;
-  border-color: black;
-  border-radius: 25px;
-  border-style: inset;
+  padding:10px 15px 10px 15px;
   text-align:center;
+  text-decoration: none;
 }
 
 li a:hover {
@@ -87,7 +106,6 @@ a:hover {
 @media screen and (max-width:399px) {
 
 body {
-  color:black;
   background-color:white;
 }
 img {
@@ -107,7 +125,7 @@ img {
   background-color:inherit;
   grid-row: 1;
   grid-column: 1;
-  font-family: Courier New, Helvetica, sans-serif;
+  font-family: "Courier New", Helvetica, sans-serif;
   padding:0px;
   margin:5px;
   font-size: 30px;
