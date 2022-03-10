@@ -15,7 +15,7 @@ img {
     padding:40px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 250px 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
     gap:20px;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 
 .left {
   background-color:black;
-  grid-row: 2/4;
+  grid-row: 1/4;
   grid-column: 1;
   padding:30px;
   height:auto;
@@ -97,7 +97,7 @@ a:hover {
 
 .right {
   background-color:grey;
-  grid-row: 2/4;
+  grid-row: 1/4;
   grid-column: 2/4;
   padding:30px;
 }
