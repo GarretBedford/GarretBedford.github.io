@@ -21,3 +21,17 @@ a:visited{background-color:lightgray; color:#a63e29}
 a:hover{font-style:italic; color:#4e9fe6; background-color:#e8e8e8}
 
 p:hover{font-style:italic;}
+
+p.grow{
+  font-size:16px;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
