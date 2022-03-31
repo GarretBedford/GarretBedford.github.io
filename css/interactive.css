@@ -1,0 +1,21 @@
+h1 {
+  font-weight: 300;
+}
+
+strong {
+  font_weight: 900;
+}
+
+button {
+  transition: all 100ms ease-in-out;
+  font-size: 40px;
+}
+
+.was-clicked {
+  padding: 20px;
+  color: red;
+}
+
+.was-entered {
+  width: 100%;
+}
