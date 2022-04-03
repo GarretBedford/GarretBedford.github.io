@@ -124,6 +124,21 @@ hr {
   padding: 40px 70px 70px 100px;
   margin: 60px;
 }
+button {
+  transition: all 100ms ease-in-out;
+  font-size: 40px;
+}
+#image-1 {
+  width:20%;
+}
+.was-clicked {
+  padding: 20px;
+  color: red;
+}
+
+#image-1.was-entered {
+  width: 50%;
+}
 }
 @media screen and (max-width:399px) {
 body {
