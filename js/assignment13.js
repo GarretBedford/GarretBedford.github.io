@@ -16,17 +16,30 @@ randomize.addEventListener('click', result);
 
 function result() {
 
+  newStory = storyText;
+
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
+
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory = newStory.replace(/Bob/g, name);
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    const weight = Math.round(300/14);
+    const temperature =  Math.round((94-32)/1.8);
+
+    newStory = newStory.replace(/94/g,temperature);
+    newStory = newStory.replace(/300/g,weight);
+    newStory = newStory.replace(/fahrenheit/g,"centigrade");
+    newStory = newStory.replace(/pounds/g,"stones");
 
   }
-
-  story.textContent = ;
+  newStory = newStory.replace(/:insertx:/g,xItem);
+  newStory = newStory.replace(/:inserty:/g,yItem);
+  newStory = newStory.replace(/:insertz:/g,zItem);
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
