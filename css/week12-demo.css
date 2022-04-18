@@ -14,7 +14,11 @@ body {
   font-family: "Courier New", Helvetica, sans-serif;
   background-color: darkblue;
 }
-
+div {
+  background-color: grey;
+  align-items: center;
+  text-align: center;
+}
 .app {
   position: absolute;
   top: 50%;
@@ -33,6 +37,9 @@ header {
   text-align:center;
   padding: 10px;
   border-bottom: 1px solid #ebebeb;
+}
+p {
+  background-color: grey;
 }
 
 .quotes {
