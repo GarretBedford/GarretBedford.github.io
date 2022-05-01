@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/master.css">
+        <link rel="stylesheet" href="../css/gallery.css">
+        <link rel="stylesheet" href="../css/jquery.flipster.min.css">
     <title>Misc.</title>
   </head>
   <body>
@@ -15,18 +16,46 @@
         <li><a href="page4.html">Contact</a></li>
       </ul>
     </div>
-    <div class="box">
-      <div class="left">
-        <img src="../img/eclipseSmall.jpg" alt="Small Eclipse">
-        <img src="../img/eclipse.jpg" alt="Medium Eclipse">
-        <img src="../img/eclipseLarge.jpg" alt="Large Eclipse">
-        <img src="../img/cuBoulder.jpg" alt="CU Boulder Building">
-        <img src="../img/lexposure.jpg" alt="Hillside Road Long Exposure">
-      </div>
-      <div class="right">
-        <img src="../img/ystone2Rainbow.jpg" alt="Yellowstone Double Rainbow">
-        <img src="../img/ystoneValley.jpg" alt="Yellowstone Double Rainbow">
+    <div class="container">
+      <div class="carousel">
+
+      <ul>
+        <li><img src="img/cuBoulder.jpg" alt=""></li>
+        <li><img src="img/cuCampus.jpg" alt=""></li>
+        <li><img src="img/eclipse.jpg" alt=""></li>
+        <li><img src="img/eclipseLarge.jpg" alt=""></li>
+        <li><img src="img/eclipseSmall.jpg" alt=""></li>
+        <li><img src="img/forestElk.jpg" alt=""></li>
+        <li><img src="img/jacksonHomeWY.jpg" alt=""></li>
+        <li><img src="img/lexposure.jpg" alt=""></li>
+        <li><img src="img/orangeSunset.JPG" alt=""></li>
+        <li><img src="img/orangeWindows.jpg" alt=""></li>
+        <li><img src="img/poloroidEye.JPG" alt=""></li>
+        <li><img src="img/purpleBee.jpg" alt=""></li>
+        <li><img src="img/redFlower.jpg" alt=""></li>
+        <li><img src="img/restingSquirrel.jpg" alt=""></li>
+        <li><img src="img/smallerFlowers.jpg" alt=""></li>
+        <li><img src="img/waterfallEdge.jpg" alt=""></li>
+        <li><img src="img/ystone2Rainbow.jpg" alt=""></li>
+        <li><img src="img/ystoneValley.jpg" alt=""></li>
+        <li><img src="img/ytWaterfall.jpg" alt=""></li>
+      </ul>
       </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+
+    <script src="../js/jquery.flipster.min.js"></script>
+
+    <script>
+      $('.carousel').flipster({
+        style:'carousel',
+        spacing: -0.3,
+      });
+    </script>
+
   </body>
 </html>

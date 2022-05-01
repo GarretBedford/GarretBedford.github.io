@@ -1,7 +1,7 @@
 @media screen and (min-width:400px) {
 
 body {
-  background-color:white;
+  background-color:blue;
   margin:0px;
   max-width: 100%;
   overflow-x: hidden;
@@ -11,8 +11,8 @@ img {
   height:auto;
 }
 .menu {
-  background-color:inherit;
-  font-family: "Courier New", Helvetica, sans-serif;
+  background-color:blue;
+  font-family: Helvetica, sans-serif;
   padding:0px;
   margin:0px;
   font-size: 30px;
@@ -20,10 +20,10 @@ img {
   align-self: center;
 }
 .menu .activemenu {
-  background-color: #505050;
+  background-color: #6A6A6A;
 }
 .menu .activemenu:hover {
-  color:white;
+  color:#5FF8FF;
   background-color: darkblue;
 }
 .list {
@@ -37,7 +37,7 @@ img {
   font-size: 20px;
   border-width:0px;
 }
-ul {
+.menu ul {
   list-style-type: none;
   margin:0px;
   padding:0px;
@@ -49,10 +49,10 @@ ul {
   position:relative;
   width:100%;
 }
-li {
+.nav li {
   float:left;
 }
-li a {
+.nav li a {
   display:block;
   width:auto;
   background-color: grey;
@@ -60,21 +60,21 @@ li a {
   text-align:center;
   text-decoration: none;
 }
-li a:hover {
+.nav li a:hover {
   background-color: darkblue;
-  color:white;
+  color: #5FF8FF;
 }
 a:link {
   background-color:grey;
-  color:#ff784f
+  color:#7637FF;
 }
 a:visited {
   background-color:grey;
-  color:#a63e29
+  color:#7637FF;
 }
 a:hover {
   font-style:italic;
-  color:white;
+  color:#5FF8FF;
   background-color:darkblue;
 }
 h1 {
